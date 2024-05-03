@@ -1,1 +1,2 @@
 this is a commit on github
+My name is Samuel, i'm learnimg frontend development
