@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const dynamicText = document.querySelector("h1 span");
 const words = ["is key", "produces results", "is the way", "never lies"];
 
@@ -26,3 +27,36 @@ const typeEffect = () => {
 }
 
 typeEffect();
+=======
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    loop: true,
+    spaceBetween: 40,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        550: {
+            slidesPerView: 2,
+        },
+        800: {
+            slidesPerView: 3,
+        },
+        1000: {
+            slidesPerView: 3,
+        },
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+>>>>>>> 5798211 (Image slider)

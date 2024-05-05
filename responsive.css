@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    min-height: 100vh;
+    background: #0d0b18;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.swiper-wrapper{
+    padding: 0 20px;
+
+}
+.swiper-slide{
+    width: 400px;
+    height: 600px;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.5rem;
+    box-shadow: 8px 8px rgba(216, 216, 216, 0.1);
+}
+@media (max-width: 544px) {
+    .swiper-wrapper{
+        padding: 0;
+    }  
+}
