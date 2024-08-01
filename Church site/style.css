@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgs/Adobe_Post_20211017_0317410.1316186654173337.png);
+    background-size: no-repeat;
+    background-size: cover;
+}
+
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: lightblue;
+}
+nav ul{
+    float: right;
+    line-height: 80px; 
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: green;
+    text-transform: uppercase ;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: bisque;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color:bisque ;
+}
+.lead{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(8vh);
+}
+.lead h1{
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 800;
+    margin-bottom: 25px;
+}
+.lead p{
+    font-size: 18px;
+    color: grey;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.lead .btn{
+    color: yellow;
+    padding: 12px 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: black;
+}
