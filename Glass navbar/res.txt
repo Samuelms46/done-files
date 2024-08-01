@@ -1,0 +1,8 @@
+<i class='bx bxs-home'></i>
+<i class='bx bx-edit'></i>
+<i class='bx bxl-messenger'></i>
+<i class='bx bxs-group'></i>
+<i class='bx bx-plus'></i>
+<i class='bx bx-log-out'></i>
+<i class='bx bxs-bell'></i>
+<i class='bx bx-user-plus'></i>

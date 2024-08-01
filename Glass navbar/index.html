@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="dot-container" id="toggle">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <h1>Facebook</h1>
+        <div class="line"></div>
+
+        <div class="profile"><img src="imgs/20230728_165656.jpg" alt="" class="logo">
+            <div class="profile-text">
+                <h2>McXEIROL</h2>
+                <p class="account">My Account</p>
+            </div>
+            <span class="toggle-box"><i class='bx bx-plus'></i></span>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="menu">MENU</div>
+
+        <ul>
+            <li class="bar"><i class='bx bxs-home'></i><span>Home</span></li>
+            <li class="bar"><i class='bx bx-edit'></i><span>Post</span></li>
+            <li class="bar"><i class='bx bxl-messenger'></i><span>Messenger</span></li>
+            <li class="bar"><i class='bx bx-user-plus'></i><span>Friends</span></li>
+            <li class="bar"><i class='bx bxs-bell'></i><span>Notification <i class="not-num">5</i></span></li>
+            <li class="bar"><i class='bx bxs-group'></i><span>Group</span></li>
+            <li class="bar"><i class='bx bxs-cog'></i><span>Setting</span></li>
+        </ul>
+
+        <div class="line" style="position: relative; top:5px;"></div>
+
+        <div class="logout-container">
+            <i class='bx bx-log-out' style="position: relative; left:0; top: 20px; font: size 24px;"></i>
+            <p class="log-outtxt">Log out</p>
+        </div>
+
+
+        <script>
+            var toggle = document.getElementById("toggle");
+            var container = document.getElementById("container");
+
+            toggle.onclick =function() {
+                container.classList.toggle('active');
+            }
+            
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    
+</body>
+</html>
