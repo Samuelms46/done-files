@@ -10,7 +10,7 @@
 section{
     min-height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgs/Adobe_Post_20211017_0317410.1316186654173337.png);
-    background-size: no-repeat;
+     background-size: no-repeat;
     background-size: cover;
 }
 
@@ -18,6 +18,7 @@ nav h1{
     float: left;
     line-height: 80px;
     font-size: 35px;
+    background-repeat: no-repeat;
     font-size: inline;
     color: lightblue;
 }
@@ -69,4 +70,54 @@ nav ul li .active{
     text-transform: uppercase;
     text-decoration: none;
     background-color: black;
+}
+
+.next{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgs/Adobe_Post_20211017_0317410.1316186654173337.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    transform: translateY(8vh);
+}
+
+.pastors{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    transform: translateY(8vh);
+}
+
+.pastors h1{
+    font-size: 35px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 800;
+    margin-bottom: 25px;
+}
+
+.pastors p{
+    font-size: 18px;
+    color: grey;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.pastors .btn{
+    color: yellow;
+    padding: 12px 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: black;
+}   
+
+.sermons{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    transform: translateY(8vh);
 }
