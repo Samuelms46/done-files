@@ -10,7 +10,7 @@
 section{
     min-height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgs/Adobe_Post_20211017_0317410.1316186654173337.png);
-     background-size: no-repeat;
+    background-size: no-repeat;
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@ nav h1{
     font-size: 35px;
     background-repeat: no-repeat;
     font-size: inline;
-    color: lightblue;
+    color: white;
 }
 nav ul{
     float: right;
@@ -32,18 +32,18 @@ nav ul li{
     padding: 0px 5px;
 }
 nav ul li a{
-    color: green;
+    color: gray;
     text-transform: uppercase ;
     text-decoration: none;
     border-radius: 5px;
     padding: 7px 8px;
 }
 nav ul li a:hover{
-    background-color: bisque;
+    background-color: white;
     transition: 0.5s ease;
 }
 nav ul li .active{
-    background-color:bisque ;
+    background-color:white ;
 }
 .lead{
     width: 50%;
@@ -87,13 +87,13 @@ nav ul li .active{
     width: 80%;
     margin: auto;
     text-align: center;
-    color: white;
+    color: goldenrod;
     transform: translateY(8vh);
 }
 
 .pastors h1{
     font-size: 35px;
-    color: white;
+    color: goldenrod;
     letter-spacing: 1.5px;
     font-size: 800;
     margin-bottom: 25px;
@@ -118,6 +118,6 @@ nav ul li .active{
     width: 80%;
     margin: auto;
     text-align: center;
-    color: white;
+    color: goldenrod;
     transform: translateY(8vh);
 }
