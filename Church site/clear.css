@@ -1,0 +1,37 @@
+/* Container for video and content */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Video styling */
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Smooth crossfade */
+    z-index: -1;
+}
+
+.background-video.active {
+    opacity: 1;
+    z-index: -2; /* Ensure the active video is below the inactive one */
+}
+
+/* Content overlay styling */
+.video-container .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -7,9 +7,35 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* Container for video and content */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Video styling */
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Smooth crossfade */
+    z-index: -1;
+}
+
+.background-video.active {
+    opacity: 1;
+    z-index: -2; /* Ensure the active video is below the inactive one */
+}
+
 section{
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgs/Adobe_Post_20211017_0317410.1316186654173337.png);
     background-size: no-repeat;
     background-size: cover;
 }
@@ -75,7 +101,7 @@ nav ul li .active{
 .next{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgs/Adobe_Post_20211017_0317410.1316186654173337.png);
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(imgs/worship1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
